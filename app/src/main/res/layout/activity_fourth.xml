@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FourthActivity">
+    <LinearLayout
+        android:id="@+id/Qp"
+        android:layout_width="400dp"
+        android:layout_height="601dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/Qz1"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/bing" />
+
+        <Button
+            android:id="@+id/Qz2"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/bing" />
+
+        <Button
+            android:id="@+id/Qz3"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/bing" />
+
+        <Button
+            android:id="@+id/Qz4"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/bing" />
+
+        <Button
+            android:id="@+id/Qz5"
+            android:layout_width="180dp"
+            android:layout_height="90dp"
+            android:background="@drawable/huangzhong2" />
+
+        <Button
+            android:id="@+id/Qz6"
+            android:layout_width="180dp"
+            android:layout_height="90dp"
+            android:background="@drawable/zhangfei2" />
+
+        <Button
+            android:id="@+id/Qz7"
+            android:layout_width="180dp"
+            android:layout_height="90dp"
+            android:background="@drawable/machao2" />
+
+        <Button
+            android:id="@+id/Qz8"
+            android:layout_width="180dp"
+            android:layout_height="90dp"
+            android:background="@drawable/zhaoyun2" />
+
+        <Button
+            android:id="@+id/Qz9"
+            android:layout_width="180dp"
+            android:layout_height="90dp"
+            android:background="@drawable/guanyu" />
+
+        <Button
+            android:id="@+id/Qz10"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:background="@drawable/caocao" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="欢迎来到华容道！"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Qp"
+        tools:layout_editor_absoluteX="16dp" />
+</android.support.constraint.ConstraintLayout>
